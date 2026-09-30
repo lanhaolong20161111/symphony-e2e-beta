@@ -1,13 +1,11 @@
----
+﻿---
 id: BETA-2
 title: "E2E e2e-beta ticket 2"
-state: ready
+state: in-progress
 priority: 2
 ---
-**只做这一件事，不要探索仓库、不要跑测试套件、不要读别的文件**（省 token ✓）。
-
-在 `README.md` 最后追加**一行**：
-
+**鍙仛杩欎竴浠朵簨锛屼笉瑕佹帰绱粨搴撱€佷笉瑕佽窇娴嬭瘯濂椾欢銆佷笉瑕佽鍒殑鏂囦欢**锛堢渷 token 鉁擄級銆?
+鍦?`README.md` 鏈€鍚庤拷鍔?*涓€琛?*锛?
 ```
 beta-e2e-2
 ```
@@ -16,10 +14,6 @@ beta-e2e-2
 
     findstr /C:"beta-e2e-2" README.md
 
-## 完成时的动作
+## 瀹屾垚鏃剁殑鍔ㄤ綔
 
-1. 自己提交（信息写清改了什么）✓
-2. 自己 push：`git push -u origin symphony/BETA-2` ✓
-3. 自己开 PR：`gh pr create`（base 主分支）✓
-4. 用 `ticket_comment` 报告：提交哈希与主题 ✓、push 退出码 ✓、PR 链接 ✓、**凭据前 4 字符** ✓（ghs_ = App 令牌 ✓）、**PR 是你开的还是宿主开的** ✓
-5. 票改成 `state: in-review` ✓
+1. 鑷繁鎻愪氦锛堜俊鎭啓娓呮敼浜嗕粈涔堬級鉁?2. 鑷繁 push锛歚git push -u origin symphony/BETA-2` 鉁?3. 鑷繁寮€ PR锛歚gh pr create`锛坆ase 涓诲垎鏀級鉁?4. 鐢?`ticket_comment` 鎶ュ憡锛氭彁浜ゅ搱甯屼笌涓婚 鉁撱€乸ush 閫€鍑虹爜 鉁撱€丳R 閾炬帴 鉁撱€?*鍑嵁鍓?4 瀛楃** 鉁擄紙ghs_ = App 浠ょ墝 鉁擄級銆?*PR 鏄綘寮€鐨勮繕鏄涓诲紑鐨?* 鉁?5. 绁ㄦ敼鎴?`state: in-review` 鉁

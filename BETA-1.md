@@ -1,4 +1,6 @@
-﻿---
+---
+links: [{url: "https://github.com/lanhaolong20161111/symphony-e2e-beta/pull/1", title: "PR 1", kind: pr}]
+branch_name: symphony/BETA-1
 id: BETA-1
 title: "E2E e2e-beta ticket 1"
 state: in-review
