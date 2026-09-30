@@ -1,9 +1,9 @@
-﻿---
+---
 links: [{url: "https://github.com/lanhaolong20161111/symphony-e2e-beta/pull/2", title: "PR 2", kind: pr}]
 branch_name: symphony/BETA-2
 id: BETA-2
 title: "E2E e2e-beta ticket 2"
-state: in-review
+state: done
 priority: 2
 ---
 **閸欘亜浠涙潻娆庣娴犳湹绨ㄩ敍灞肩瑝鐟曚焦甯扮槐顫波鎼存挶鈧椒绗夌憰浣界獓濞村鐦總妞炬閵嗕椒绗夌憰浣筋嚢閸掝偆娈戦弬鍥︽**閿涘牏娓?token 閴佹搫绱氶妴?
