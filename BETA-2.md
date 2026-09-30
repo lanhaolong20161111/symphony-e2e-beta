@@ -1,11 +1,13 @@
 ﻿---
+links: [{url: "https://github.com/lanhaolong20161111/symphony-e2e-beta/pull/2", title: "PR 2", kind: pr}]
+branch_name: symphony/BETA-2
 id: BETA-2
 title: "E2E e2e-beta ticket 2"
-state: in-progress
+state: in-review
 priority: 2
 ---
-**鍙仛杩欎竴浠朵簨锛屼笉瑕佹帰绱粨搴撱€佷笉瑕佽窇娴嬭瘯濂椾欢銆佷笉瑕佽鍒殑鏂囦欢**锛堢渷 token 鉁擄級銆?
-鍦?`README.md` 鏈€鍚庤拷鍔?*涓€琛?*锛?
+**閸欘亜浠涙潻娆庣娴犳湹绨ㄩ敍灞肩瑝鐟曚焦甯扮槐顫波鎼存挶鈧椒绗夌憰浣界獓濞村鐦總妞炬閵嗕椒绗夌憰浣筋嚢閸掝偆娈戦弬鍥︽**閿涘牏娓?token 閴佹搫绱氶妴?
+閸?`README.md` 閺堚偓閸氬氦鎷烽崝?*娑撯偓鐞?*閿?
 ```
 beta-e2e-2
 ```
@@ -14,6 +16,7 @@ beta-e2e-2
 
     findstr /C:"beta-e2e-2" README.md
 
-## 瀹屾垚鏃剁殑鍔ㄤ綔
-
-1. 鑷繁鎻愪氦锛堜俊鎭啓娓呮敼浜嗕粈涔堬級鉁?2. 鑷繁 push锛歚git push -u origin symphony/BETA-2` 鉁?3. 鑷繁寮€ PR锛歚gh pr create`锛坆ase 涓诲垎鏀級鉁?4. 鐢?`ticket_comment` 鎶ュ憡锛氭彁浜ゅ搱甯屼笌涓婚 鉁撱€乸ush 閫€鍑虹爜 鉁撱€丳R 閾炬帴 鉁撱€?*鍑嵁鍓?4 瀛楃** 鉁擄紙ghs_ = App 浠ょ墝 鉁擄級銆?*PR 鏄綘寮€鐨勮繕鏄涓诲紑鐨?* 鉁?5. 绁ㄦ敼鎴?`state: in-review` 鉁
+## 鐎瑰本鍨氶弮鍓佹畱閸斻劋缍?
+1. 閼奉亜绻侀幓鎰唉閿涘牅淇婇幁顖氬晸濞撳懏鏁兼禍鍡曠矆娑斿牞绱氶墎?2. 閼奉亜绻?push閿涙瓪git push -u origin symphony/BETA-2` 閴?3. 閼奉亜绻佸鈧?PR閿涙瓪gh pr create`閿涘潌ase 娑撹鍨庨弨顖ょ礆閴?4. 閻?`ticket_comment` 閹躲儱鎲￠敍姘絹娴溿倕鎼辩敮灞肩瑢娑撳顣?閴佹挶鈧垢ush 闁偓閸戣櫣鐖?閴佹挶鈧赋R 闁剧偓甯?閴佹挶鈧?*閸戭厽宓侀崜?4 鐎涙顑?* 閴佹搫绱檊hs_ = App 娴犮倗澧?閴佹搫绱氶妴?*PR 閺勵垯缍樺鈧惃鍕箷閺勵垰顔栨稉璇茬磻閻?* 閴?5. 缁併劍鏁奸幋?`state: in-review` 閴?
+## Discussion
+- **agent** (2026-09-30T12:04:17.023000Z, id=local-1): BETA-2 done. Commit edac4cf "docs: append beta-e2e-2 line to README" (1 file changed, 1 insertion). push: git push -u origin symphony/BETA-2 exit code 0 (branch symphony/BETA-2 created on origin, tracking set). PR: https://github.com/lanhaolong20161111/symphony-e2e-beta/pull/2 -- opened by me via gh pr create (base master), not the host. Credential first 4 chars: ghs_ (GitHub App token). Validation: findstr /C:"beta-e2e-2" README.md -> matched, exit 0. Note: this workspace is the symphony-e2e-beta target repo; it ships no elixir/ project and no .codex/skills, so the mix gate was not run -- the ticket explicitly scoped the check to the findstr validation.
